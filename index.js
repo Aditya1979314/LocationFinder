@@ -7,7 +7,7 @@ async function getLocation() {
       const longitude = location.coords.longitude;
 
       try {
-        const response = await fetch('http://13.233.82.204:3000', {
+        const response = await fetch('https://13.233.82.204:3000', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
